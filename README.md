@@ -96,12 +96,11 @@ POST	/api/transactions	Add a new transaction
 DELETE	/api/transactions/{id}	Delete transaction
 📸 Screenshots (optional)
 
-
+```
 <img width="1725" height="842" alt="Screenshot (1144)" src="https://github.com/user-attachments/assets/3326489f-fba0-4bc9-bdc5-c01fd2f86648" />
 <img width="1777" height="865" alt="Screenshot (1143)" src="https://github.com/user-attachments/assets/4b1e8a55-0f3f-4e1d-8d1c-1b19a82baf7b" />
 
 
-```
 ### 👩‍💻 Author
 
 ## Vanshika Srivastava
