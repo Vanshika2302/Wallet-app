@@ -66,8 +66,6 @@ Run the backend:
 mvn spring-boot:run
 ```
 
-## Backend runs at 👉 http://localhost:8080
-
 ### 3️⃣ Frontend Setup (React)
 
 ```
@@ -76,9 +74,7 @@ npm install
 
 Run the frontend:
 npm start
-
 ```
-## Frontend runs at 👉 http://localhost:3000
 
 <img width="1725" height="842" alt="Screenshot (1144)" src="https://github.com/user-attachments/assets/3326489f-fba0-4bc9-bdc5-c01fd2f86648" />
 <img width="1777" height="865" alt="Screenshot (1143)" src="https://github.com/user-attachments/assets/4b1e8a55-0f3f-4e1d-8d1c-1b19a82baf7b" />
