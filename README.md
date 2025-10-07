@@ -30,6 +30,7 @@ It includes a React frontend and a Spring Boot backend, communicating through RE
 
 ## ⚙️ Project Structure
 
+```
 Wallet-app/
 │
 ├── expense-app-frontend-react/ # React frontend
@@ -43,9 +44,7 @@ Wallet-app/
 │ └── application.properties
 │
 ├── README.md
-
-
----
+```
 
 ## 🧑‍💻 Installation & Setup
 
@@ -66,11 +65,13 @@ jwt.secret=your_jwt_secret
 
 Run the backend:
 mvn spring-boot:run
+```
 
+## Backend runs at 👉 http://localhost:8080
 
-Backend runs at 👉 http://localhost:8080
+### 3️⃣ Frontend Setup (React)
 
-3️⃣ Frontend Setup (React)
+```
 cd ../expense-app-frontend-react
 npm install
 
@@ -80,11 +81,11 @@ REACT_APP_API_URL=http://localhost:8080
 Run the frontend:
 npm start
 
+```
+### Frontend runs at 👉 http://localhost:3000
 
-Frontend runs at 👉 http://localhost:3000
-
-🔗 API Integration
-
+### 🔗 API Integration
+```
 The React frontend consumes REST APIs from the Spring Boot backend.
 For example:
 
@@ -96,25 +97,15 @@ POST	/api/transactions	Add a new transaction
 DELETE	/api/transactions/{id}	Delete transaction
 📸 Screenshots (optional)
 
-(You can add images later here)
 
-/assets/screenshots/dashboard.png
+<img width="1725" height="842" alt="Screenshot (1144)" src="https://github.com/user-attachments/assets/3326489f-fba0-4bc9-bdc5-c01fd2f86648" />
+<img width="1777" height="865" alt="Screenshot (1143)" src="https://github.com/user-attachments/assets/4b1e8a55-0f3f-4e1d-8d1c-1b19a82baf7b" />
 
-🧾 License
 
-This project is licensed under the MIT License.
+```
+### 👩‍💻 Author
 
-👩‍💻 Author
-
-Vanshika Srivastava
-
-📧 Email: your.email@example.com
-
-🌐 GitHub: VanshikaSrivastava
+## Vanshika Srivastava
 
 
 ---
-
-Would you like me to:
-1. Add **installation commands for both frontend and backend combined (one-line startup script)**, or  
-2. Keep them separate as above?
