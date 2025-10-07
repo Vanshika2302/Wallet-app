@@ -1,0 +1,17 @@
+com\tcs\wallet_app\service\ValidationErrorService.class
+com\tcs\wallet_app\entity\Wallet.class
+com\tcs\wallet_app\exception\CustomResponseEntityExceptionHandler.class
+com\tcs\wallet_app\repository\UserRepository.class
+com\tcs\wallet_app\entity\Transaction.class
+com\tcs\wallet_app\entity\User.class
+com\tcs\wallet_app\service\WalletService.class
+com\tcs\wallet_app\controller\TransactionController.class
+com\tcs\wallet_app\repository\TransactionRepository.class
+com\tcs\wallet_app\controller\WalletController.class
+com\tcs\wallet_app\repository\WalletRepository.class
+com\tcs\wallet_app\exception\WalletExceptionResponse.class
+com\tcs\wallet_app\service\TransactionService.class
+com\tcs\wallet_app\service\UserService.class
+com\tcs\wallet_app\controller\UserController.class
+com\tcs\wallet_app\exception\WalletException.class
+com\tcs\wallet_app\WalletAppApplication.class

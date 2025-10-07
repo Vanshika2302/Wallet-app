@@ -1,0 +1,12 @@
+# Node modules (frontend dependencies)
+node_modules/
+
+.metadata/
+
+# Log files
+*.log
+
+# Build folders
+dist/
+build/
+*.class
