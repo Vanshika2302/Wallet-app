@@ -21,7 +21,7 @@ It includes a React frontend and a Spring Boot backend, communicating through RE
 | Layer | Technology |
 |--------|-------------|
 | Frontend | React.js, Axios |
-| Backend | Spring Boot, Spring Security, JWT |
+| Backend | Spring Boot, Spring Security |
 | Database | MySQL |
 | Build Tools | Maven (backend), npm (frontend) |
 | Version Control | Git, GitHub |
@@ -61,7 +61,6 @@ spring.datasource.url=jdbc:mysql://localhost:3306/wallet_db
 spring.datasource.username=your_db_user
 spring.datasource.password=your_db_password
 spring.jpa.hibernate.ddl-auto=update
-jwt.secret=your_jwt_secret
 
 Run the backend:
 mvn spring-boot:run
@@ -82,7 +81,7 @@ Run the frontend:
 npm start
 
 ```
-### Frontend runs at 👉 http://localhost:3000
+## Frontend runs at 👉 http://localhost:3000
 
 ### 🔗 API Integration
 ```
